@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Aula webmapa</title>
+  <meta name="author" content="Luciano" />
+  <meta name="description"
+    content="Conteúdo da aula prática de introdução a construção de mapas temáticos no ambiente web" />
+  <link rel="stylesheet" href="meu-arquivo-css.css" />
+  <script src="./conflitos.js"></script>
+  <script src="./centroides.js"></script>
+  <script src="./favelas.js"></script>
+  <script type="module" crossorigin src="./assets/index-DOkjeqxH.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-KckXPPV-.css">
+</head>
+
+<body>
+  <header id="cabecalho-principal">
+    <section>
+      <img src="/assets/globo-C3S_5V9C.png" alt="globo">
+    </section>
+    <nav>
+      <a href="#home">Introdução</a>
+      <a href="#mapa1">Mapa coroplético</a>
+      <a href="#mapa2">Mapa de símbolos pontuais proporcionais</a>
+      <a href="#mapa3">Mapa de calor</a>
+    </nav>
+  </header>
+
+  <main>
+    <article id="home">
+      <h2>Disciplina: Introdução a construção de mapas temáticos no ambiente web</h2>
+      <section id="introducao_disciplina">
+        Web mapas são utilizados todos os dias
+      </section>
+      <section id="topicos_abordados">
+        <ul>
+          <li>Revisão sobre cartografia</li>
+          <li>Mapas temáticos</li>
+          <li>Geoserviços</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Biblioteca de mapas</li>
+        </ul>
+      </section>
+      <aside id="referencias">
+        <h2>Referências</h2>
+        <ul>
+          <li><a href="https://openlayers.org/">OpenLayers</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+        </ul>
+      </aside>
+    </article>
+    <section id="mapa1" class="container_mapa">
+      <div id="mapa1"></div>
+      <section id="descricao_coropletico">
+        <h3>Descrição do mapa</h3>
+        <table>
+          <tr>
+            <td>Método de Representação</td>
+            <td>Simbolos pontuais proporcionais</td>
+          </tr>
+          <tr>
+            <td>Método de Classificação</td>
+            <td>Método não Classificado</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section id="mapa2" class="container_mapa">
+      <div id="mapa2"></div>
+      <section id="descricao_coropletico">
+        <h3>Descrição do mapa</h3>
+        <table>
+          <tr>
+            <td>Tipo de Representação</td>
+            <td>Método Coroplético</td>
+          </tr>
+          <tr>
+            <td>Método de Classificação</td>
+            <td>Jenks</td>
+          </tr>
+          <tr>
+            <td>Tema</td>
+            <td>Conflitos rurais</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+    <section id="mapa3" class="container_mapa">
+      <div id="mapa3"></div>
+      <section>
+        <h3>Descrição do mapa</h3>
+        <table>
+          <tr>
+            <td>Método de Representação</td>
+            <td>Mapa de calor</td>
+          </tr>
+          <tr>
+            <td>Tema</td>
+            <td>Favelas</td>
+          </tr>
+          <tr>
+            <td>Valor de blur</td>
+            <td>30</td>
+          </tr>
+        </table>
+      </section>
+    </section>
+  </main>
+
+  <footer id="rodape_principal">
+    <address>
+      Desenvolvido por Raphael Campos e Luciano Andrade <br>
+      Email: <a href="mailto:raphageoc@gmail.com">raphageoc@gmail.com</a><br>
+      Email: <a href="mailto:luciano.andrade@ufpr.br">luciano.andrade@ufpr.br</a>
+    </address>
+  </footer>
+
+  <script src="meu-arquivo-js.js"></script>
+</body>
+
+</html>

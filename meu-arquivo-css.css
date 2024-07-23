@@ -1,0 +1,124 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 32, 116);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#cabecalho-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    font-family: sans-serif;
+    color: rgb(17, 10, 155);
+    background-color: hsla(189, 100%, 91%, 0.973);
+    height: auto;
+    position: sticky;
+    top:0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#cabecalho-principal img {
+    margin-left: 10px;
+    height: 50px;
+    filter: contrast(70%);
+}
+
+#cabecalho-principal>nav {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+#cabecalho-principal a {
+    flex-shrink: 1;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #003250;
+    border-style: solid;
+    border-color: #003250;
+    border-width: 1px;
+}
+
+#cabecalho-principal a:hover {
+    border-color: rgb(255, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+    overflow-x: auto;
+    background-color: rgba(78, 218, 233, 0.093);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.container_mapa {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+#introducao_disciplina {
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#topicos_abordados {
+    width: 10%;
+}
+
+#referencias {
+    width: 30%;
+}
+
+#rodape_principal {
+    position: sticky;
+    bottom: 0;
+    border-style: solid;
+    border: #aa0000;
+    background-color: #00e5ff3d;
+    padding: 3px;
+}
+
+#rodape_principal address {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: #670000;
+    text-align: center;
+    padding: 1px;
+}
+
+#rodape_principal address a {
+    color: #670000;
+}
+
+#mapa1, #mapa2, #mapa3 {
+    width: 90%;
+    height: 100%;
+    display: block;
+}
